@@ -2,15 +2,27 @@
 
 ## First
 
-You should install GTK3.0 library on your linux system first, for ubuntu 's install code is :
+You should install GTK3.0 library on your linux system first.
 
-	apt-get install libgtk-3-dev
+For ubuntu 's install code is :
+
+	apt-get install libgtk-3-dev gtk-engine-murrine
+
+For fedora 's install code is :
+
+	dnf install gtk3-devel gtk-murrine-engine
 
 ## Second
 
-You need install auto-configure tool for next build task, for ubuntu 's install code is :
+You need install auto-configure tool for next build task.
 
-	apt-get install autoconf
+For ubuntu 's install code is :
+
+	apt-get install autoconf automake pkg-config
+
+For fedora 's install code is :
+
+	dnf install autoconf automake pkgconfig
 
 ## Final
 
